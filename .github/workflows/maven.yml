@@ -33,7 +33,7 @@ jobs:
     - name: Upload the final artifact
       uses: actions/upload-artifact@v2
       with:
-        path: CraftEnhance/target
+        path: home/runner/work/CraftEnhance/CraftEnhance/target
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
